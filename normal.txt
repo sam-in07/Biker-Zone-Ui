@@ -1,0 +1,186 @@
+Coursal animation 
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biker Zone</title>
+    <link href="https://c...content-available-to-author-only...r.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://c...content-available-to-author-only...r.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://f...content-available-to-author-only...s.com">
+    <link rel="preconnect" href="https://f...content-available-to-author-only...c.com" crossorigin>
+    <link
+        href="https://f...content-available-to-author-only...s.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            font-family: "Poppins", sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="max-w-[1140px] mx-auto">
+        <div class="navbar bg-base-100 flex justify-between">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://w...content-available-to-author-only...3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                        <li><a>Home</a></li>
+                        <li><a>Shop</a></li>
+                        <li><a>News</a></li>
+                        <li><a>Contact</a></li>
+                    </ul>
+                </div>
+                <a class="text-3xl font-bold text-black">Bike Dekho</a>
+            </div>
+            <div class="flex justify-center gap-4">
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a>Home</a></li>
+                        <li><a>Shop</a></li>
+                        <li><a>News</a></li>
+                        <li><a>Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="">
+                    <a class="btn btn-error text-white">Login</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-12 mb-40 carousel py-28 w-full bg-[rgba(231,111,81,0.10)]">
+            <div id="slide1" class="carousel-item relative w-full">
+                <!-- .flex.justify-between>div>h1+p+btn^img -->
+                <div class="flex flex-col px-6 lg:flex-row lg:justify-between md:w-9/12 mx-auto">
+                    <div class="flex flex-col justify-center gap-4">
+                        <h1 class="text-6xl text-black font-bold">Ride-on R15 V4 with Smile</h1>
+                        <p class="text-xs">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                            Velit officia consequat duis enim velit mollit.</p>
+                        <button class="btn btn-error w-40">Purchase</button>
+
+                    </div>
+                    <img src="/images/slider/bike1.png" alt="">
+                </div>
+                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                    <a href="#slide4" class="btn btn-circle">❮</a>
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+            <div id="slide2" class="carousel-item relative w-full">
+                <!-- .flex.justify-between>div>h1+p+btn^img -->
+                <div class="flex flex-col px-6 lg:flex-row lg:justify-between md:w-9/12 mx-auto">
+                    <div class="flex flex-col justify-center gap-4">
+                        <h1 class="text-6xl text-black font-bold">Ride-on R15 V4 with Smile</h1>
+                        <p class="text-xs">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                            Velit officia consequat duis enim velit mollit.</p>
+                        <button class="btn btn-error w-40">Purchase</button>
+
+                    </div>
+                    <img src="/images/slider/bike2.png" alt="">
+                </div>
+                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                    <a href="#slide1" class="btn btn-circle">❮</a>
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+            <div id="slide3" class="carousel-item relative w-full">
+                <!-- .flex.justify-between>div>h1+p+btn^img -->
+                <div class="flex flex-col px-6 lg:flex-row lg:justify-between md:w-9/12 mx-auto">
+                    <div class="flex flex-col justify-center gap-4">
+                        <h1 class="text-6xl text-black font-bold">Ride-on R15 V4 with Smile</h1>
+                        <p class="text-xs">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                            Velit officia consequat duis enim velit mollit.</p>
+                        <button class="btn btn-error w-40">Purchase</button>
+
+                    </div>
+                    <img src="/images/slider/bike3.png" alt="">
+                </div>
+                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                    <a href="#slide2" class="btn btn-circle">❮</a>
+                    <a href="#slide4" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+            <div id="slide4" class="carousel-item relative w-full">
+                <!-- .flex.justify-between>div>h1+p+btn^img -->
+                <div class="flex flex-col px-6 lg:flex-row lg:justify-between md:w-9/12 mx-auto">
+                    <div class="flex flex-col justify-center gap-4">
+                        <h1 class="text-6xl text-black font-bold">Ride-on R15 V4 with Smile</h1>
+                        <p class="text-xs">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                            Velit officia consequat duis enim velit mollit.</p>
+                        <button class="btn btn-error w-40">Purchase</button>
+
+                    </div>
+                    <img src="/images/slider/bike1.png" alt="">
+                </div>
+                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                    <a href="#slide3" class="btn btn-circle">❮</a>
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="max-w-[1140px] mx-auto">
+            <!-- h1+.grid.grid-cols-1.md:grid-cols-2.lg-grid-cols-3 -->
+
+            <h1 class="text-center text-5xl font-semibold mb-12">latest News</h1>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-5">
+                <div class="card bg-base-100 shadow-sm">
+                    <figure>
+                        <img src="images/others/latest1.png"
+                            alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                        <h2 class="card-title">Card Title</h2>
+                        <p>A card component has a figure, a body part, and inside body there are title and actions parts
+                        </p>
+                        <div class="card-actions justify-start">
+                            <button class="btn btn-error">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-base-100 shadow-sm">
+                    <figure>
+                        <img src="images/others/latest2.png"
+                            alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                        <h2 class="card-title">Card Title</h2>
+                        <p>A card component has a figure, a body part, and inside body there are title and actions parts
+                        </p>
+                        <div class="card-actions justify-start">
+                            <button class="btn btn-outline btn-error">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-base-100 shadow-sm">
+                    <figure>
+                        <img src="images/others/latest3.png"
+                            alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                        <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                        <div class="card-actions justify-start">
+                            <button class="btn btn-outline btn-error">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+
+</html>
