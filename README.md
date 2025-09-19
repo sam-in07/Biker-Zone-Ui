@@ -129,4 +129,4 @@ Honda CBR 300R বড় হেডিং হিসেবে সাদা রঙে 
 
 [accordion](https://https://daisyui.com/components/accordion/)
 
-[collapse](https:// https://daisyui.com/components/collapse/)
+[collapse] (https://daisyui.com/components/collapse/)
