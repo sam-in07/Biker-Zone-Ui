@@ -35,6 +35,17 @@
       .poppins {
         font-family: "Poppins", sans-serif;
       }
+
+      .hero-pattern {
+      background-image: radial-gradient(circle at 1px 1px, rgba(255,255,255,0.1) 1px, transparent 0);
+      background-size: 20px 20px;
+      }
+      .gradient-text {
+      background: linear-gradient(135deg, #264653, #E76F51);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
     </style>
   </head>
   <body class="poppins">
@@ -95,7 +106,7 @@
       <div class="hero-content flex-col lg:flex-row-reverse max-w-7xl">
         <div class="flex-1">
           <img
-            src="biker-zone-main/images/slider/bike2.png"
+            src="biker-zone-main/images/slider/dhumbachalechale.png"
             class="max-w-full h-auto"
             alt="Honda CBR 300R"
           />
@@ -120,5 +131,31 @@
         </div>
       </div>
     </section>
-  </body>
+    
+    <main class="max-w-7xl mx-auto px-4">
+      <!-- featured bike section -->
+       <section class="py-20">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl md:text-5xl font-bold text-black mb-4">Featured Bikes This Year</h2>
+        <p class="text-[#E76F51] text-xl font-semibold">Best bike collection</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12">
+        <div>
+          <img src="biker-zone-main/images/others/feature-bike.png" alt="Featured Bike" class="w-full h-auto grayscale" />
+        </div>
+        <div>
+          <img src="biker-zone-main/images/others/feature-bike.png" alt="Featured Bike" class="w-full h-auto" />
+        </div>
+        <div>
+          <img src="biker-zone-main/images/others/feature-bike.png" alt="Featured Bike" class="w-full h-auto grayscale" />
+        </div>
+      </div>
+    </section>
+
+
+
+    </main>
+   
+  </body>  
 </html>
