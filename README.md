@@ -124,3 +124,9 @@ Honda CBR 300R বড় হেডিং হিসেবে সাদা রঙে 
 উপরে একটা Navbar আছে (বামদিকে লোগো, মাঝখানে মেনু, ডানদিকে Login বাটন + ছোট স্ক্রিনে Dropdown)।
 
 এর নিচে একটা Hero Section আছে (ডানদিকে বাইক এর ছবি, বামদিকে লেখা এবং বাটন)।
+
+
+
+[accordion](https://https://daisyui.com/components/accordion/)
+
+[collapse](https:// https://daisyui.com/components/collapse/)

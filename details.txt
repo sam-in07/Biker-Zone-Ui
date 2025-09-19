@@ -1,0 +1,37 @@
+<div class="flex-shrink-0">
+  <img
+    src="biker-zone-main/images/others/shopping.png"
+    class="w-full max-w-md lg:max-w-lg h-auto object-contain"
+    alt="Shopping"
+  />
+</div>
+
+
+
+<div class="flex-shrink-0">
+
+flex-shrink-0:
+
+This means: "Do not shrink this container when inside a flex layout."
+
+So if this <div> is inside a flex parent (display: flex), it will keep its size and not shrink, even if space is tight.
+
+🔹 <img ... />
+
+This is the image inside the div.
+
+src="biker-zone-main/images/others/shopping.png":
+
+Points to the image file that will be displayed. It's located at:
+biker-zone-main/images/others/shopping.png
+
+class="w-full max-w-md lg:max-w-lg h-auto object-contain":
+This is a combination of Tailwind CSS utility classes:
+
+| Class            | Meaning                                                                                                    |
+| ---------------- | ---------------------------------------------------------------------------------------------------------- |
+| `w-full`         | Make the image take up **100% of the width** of its container                                              |
+| `max-w-md`       | But don't let it get wider than **"medium" size** (`max-width: 28rem` on most configs)                     |
+| `lg:max-w-lg`    | On large screens and up (`lg:`), allow up to a **"large" max-width** (`max-width: 32rem`)                  |
+| `h-auto`         | Height should **automatically scale** based on the width (keeps aspect ratio)                              |
+| `object-contain` | The image **scales to fit** the container without cropping (maintains aspect ratio and fits within bounds) |
