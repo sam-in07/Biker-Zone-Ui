@@ -37,15 +37,19 @@
       }
 
       .hero-pattern {
-      background-image: radial-gradient(circle at 1px 1px, rgba(255,255,255,0.1) 1px, transparent 0);
-      background-size: 20px 20px;
+        background-image: radial-gradient(
+          circle at 1px 1px,
+          rgba(255, 255, 255, 0.1) 1px,
+          transparent 0
+        );
+        background-size: 20px 20px;
       }
       .gradient-text {
-      background: linear-gradient(135deg, #264653, #E76F51);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-    }
+        background: linear-gradient(135deg, #264653, #e76f51);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
     </style>
   </head>
   <body class="poppins">
@@ -131,31 +135,135 @@
         </div>
       </div>
     </section>
-    
+
     <main class="max-w-7xl mx-auto px-4">
       <!-- featured bike section -->
-       <section class="py-20">
-      <div class="text-center mb-16">
-        <h2 class="text-4xl md:text-5xl font-bold text-black mb-4">Featured Bikes This Year</h2>
-        <p class="text-[#E76F51] text-xl font-semibold">Best bike collection</p>
-      </div>
-
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12">
-        <div>
-          <img src="biker-zone-main/images/others/feature-bike.png" alt="Featured Bike" class="w-full h-auto grayscale" />
+      <section class="py-20">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold text-black mb-4">
+            Featured Bikes This Year
+          </h2>
+          <p class="text-[#E76F51] text-xl font-semibold">
+            Best bike collection
+          </p>
         </div>
-        <div>
-          <img src="biker-zone-main/images/others/feature-bike.png" alt="Featured Bike" class="w-full h-auto" />
+
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12"
+        >
+          <div>
+            <img
+              src="biker-zone-main/images/others/feature-bike.png"
+              alt="Featured Bike"
+              class="w-full h-auto grayscale"
+            />
+          </div>
+          <div>
+            <img
+              src="biker-zone-main/images/others/feature-bike.png"
+              alt="Featured Bike"
+              class="w-full h-auto"
+            />
+          </div>
+          <div>
+            <img
+              src="biker-zone-main/images/others/feature-bike.png"
+              alt="Featured Bike"
+              class="w-full h-auto grayscale"
+            />
+          </div>
         </div>
-        <div>
-          <img src="biker-zone-main/images/others/feature-bike.png" alt="Featured Bike" class="w-full h-auto grayscale" />
+      </section>
+
+      <!-- lateest news  -->
+      <section class="py-20">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold text-black">Latest News</h2>
         </div>
-      </div>
-    </section>
 
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div class="card bg-white shadow-xl">
+            <figure>
+              <img
+                src="biker-zone-main/images/others/latest1.png"
+                alt="Ducati XDIAVEL S-73"
+                class="w-full h-64 object-cover"
+              />
+            </figure>
+            <div class="card-body p-6">
+              <h3 class="card-title text-2xl font-bold text-[#264653] mb-3">
+                Ducati XDIAVEL S-73
+              </h3>
+              <p class="text-gray-600 leading-relaxed mb-6">
+                Discover the perfect blend of power and elegance with the latest
+                Ducati model featuring advanced engineering and stunning design.
+              </p>
+              <div class="card-actions">
+                <button
+                  class="btn bg-[#E76F51] text-white border-none btn-animated"
+                >
+                  Read More
+                </button>
+              </div>
+            </div>
+          </div>
 
+          <div class="card bg-white shadow-xl">
+            <figure>
+              <img
+                src="biker-zone-main/images/others/latest2.png"
+                alt="Motorcross Adventure"
+                class="w-full h-64 object-cover"
+              />
+            </figure>
+            <div class="card-body p-6">
+              <h3 class="card-title text-2xl font-bold text-[#264653] mb-3">
+                Motorcross Adventure
+              </h3>
+              <p class="text-gray-600 leading-relaxed mb-6">
+                Take your riding experience off-road with our premium adventure
+                bikes designed for the most challenging terrains.
+              </p>
+              <div class="card-actions">
+                <button
+                  class="btn bg-[#E76F51] text-white border-none btn-animated"
+                >
+                  Read More
+                </button>
+              </div>
+            </div>
+          </div>
 
+          <div class="card bg-white shadow-xl">
+            <figure>
+              <img
+                src="biker-zone-main/images/others/latest3.png"
+                alt="Street Performance"
+                class="w-full h-64 object-cover"
+              />
+            </figure>
+            <div class="card-body p-6">
+              <h3 class="card-title text-2xl font-bold text-[#264653] mb-3">
+                Street Performance
+              </h3>
+              <p class="text-gray-600 leading-relaxed mb-6">
+                Experience urban riding like never before with our collection of
+                street performance motorcycles built for city adventures.
+              </p>
+              <div class="card-actions">
+                <button
+                  class="btn bg-[#E76F51] text-white border-none btn-animated"
+                >
+                  Read More
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonials Section -->
+        
     </main>
-   
-  </body>  
+  </body>
 </html>
