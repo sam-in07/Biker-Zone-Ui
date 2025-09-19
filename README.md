@@ -88,7 +88,7 @@ max-w-7xl → কন্টেন্টকে সর্বোচ্চ প্র�
 Image (ডানপাশে)
 
 <div class="flex-1">
-  <img src="biker-zone-main/images/slider/bike2.png" class="max-w-full h-auto" alt="Honda CBR 300R" />
+  <img src="  " class="max-w-full h-auto" alt="Honda CBR 300R" />
 </div>
 
 
@@ -116,7 +116,11 @@ Honda CBR 300R বড় হেডিং হিসেবে সাদা রঙে 
 
 শেষে Purchase Now বাটন (#E76F51 রঙের)।
 
+
+
 **Whole part1 :**
+
+
 উপরে একটা Navbar আছে (বামদিকে লোগো, মাঝখানে মেনু, ডানদিকে Login বাটন + ছোট স্ক্রিনে Dropdown)।
 
 এর নিচে একটা Hero Section আছে (ডানদিকে বাইক এর ছবি, বামদিকে লেখা এবং বাটন)।
