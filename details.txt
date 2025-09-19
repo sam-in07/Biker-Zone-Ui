@@ -35,3 +35,41 @@ This is a combination of Tailwind CSS utility classes:
 | `lg:max-w-lg`    | On large screens and up (`lg:`), allow up to a **"large" max-width** (`max-width: 32rem`)                  |
 | `h-auto`         | Height should **automatically scale** based on the width (keeps aspect ratio)                              |
 | `object-contain` | The image **scales to fit** the container without cropping (maintains aspect ratio and fits within bounds) |
+
+
+Footer 
+বাম পাশে, "Download Now" এবং "License" শিরোনামের নিচে কিছু গুরুত্বপূর্ণ লিঙ্ক (যেমন About Us, Features, Pricing, Help, Privacy Policy) রাখা হয়েছে, যাতে ব্যবহারকারীরা সহজেই ওয়েবসাইটের বিভিন্ন তথ্য পেতে পারেন। এখানে "Pricing" লিঙ্কটি দুইবার আছে, যা সম্ভবত ভুলবশত হয়েছে। নিচে কপিরাইট নোটিশ দেওয়া হয়েছে—"© 2020 bike. All rights reserved"—যা ওয়েবসাইটের মালিকানা নির্দেশ করে।
+
+ডান পাশে, "Get The App" শিরোনামের নিচে দুটি অ্যাপ ডাউনলোড বাটন রয়েছে—একটি iOS এবং একটি Android-এর জন্য। প্রতিটি বাটনে সংশ্লিষ্ট প্ল্যাটফর্মের লোগোসহ ছবি ব্যবহার করা হয়েছে, যাতে ব্যবহারকারীরা সহজেই অ্যাপটি ডাউনলোড করতে পারেন।
+
+পুরো ফুটারটি রেসপনসিভ, অর্থাৎ মোবাইল ও ডেস্কটপ উভয় ডিভাইসে সুন্দরভাবে দেখা যাবে। ডিজাইনটি পরিষ্কার, ব্যবহারবান্ধব এবং আধুনিক ওয়েবসাইটের জন্য উপযোগী।
+
+
+
+bg-black text-white mt-20
+bg-black: ফুটারের ব্যাকগ্রাউন্ড কালো।
+text-white: ফুটারের সব টেক্সট সাদা।
+mt-20: ফুটারের উপরে ৫ রেম (৮০px) মার্জিন, যাতে উপরের কনটেন্ট থেকে দূরত্ব থাকে।
+২. max-w-7xl mx-auto px-4 py-16
+max-w-7xl: ফুটারের কনটেন্ট সর্বোচ্চ ৭xl (প্রায় ১২৮০px) চওড়া হবে।
+mx-auto: ফুটার কনটেন্টকে হরিজন্টালি (ডানে-বামে) মাঝখানে রাখে।
+px-4: ডানে-বামে ১ রেম (১৬px) প্যাডিং।
+py-16: উপর-নিচে ৪ রেম (৬৪px) প্যাডিং।
+৩. grid grid-cols-1 lg:grid-cols-2 gap-12
+grid: গ্রিড লেআউট চালু।
+grid-cols-1: ছোট স্ক্রিনে এক কলাম।
+lg:grid-cols-2: বড় স্ক্রিনে দুই কলাম।
+gap-12: কলামগুলোর মাঝে ৩ রেম (৪৮px) ফাঁকা।
+৪. flex flex-wrap gap-x-6 gap-y-3
+flex: ফ্লেক্সবক্স লেআউট।
+flex-wrap: লিঙ্কগুলো এক লাইনে না এলে পরের লাইনে যাবে।
+gap-x-6: অনুভূমিকভাবে ১.৫ রেম (২৪px) ফাঁকা।
+gap-y-3: উল্লম্বভাবে ০.৭৫ রেম (১২px) ফাঁকা।
+৫. py-8 text-gray-300
+py-8: উপর-নিচে ২ রেম (৩২px) প্যাডিং।
+text-gray-300: টেক্সট হালকা ধূসর।
+৬. flex lg:justify-end
+flex: ফ্লেক্সবক্স লেআউট।
+lg:justify-end: বড় স্ক্রিনে ডানদিকে কনটেন্ট সাজানো।
+৭. space-y-4
+space-y-4: প্রতিটি ডাউনলোড বাটনের মাঝে ১ রেম (১৬px) ফাঁকা।
